@@ -1,0 +1,791 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Main",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "AnimatedImage",
+            "Name": "animatedImage",
+            "Width": 800,
+            "Height": 480,
+            "FileNameFirst": "bkg_01.png",
+            "FileNameLast": "bkg_18.png",
+            "UpdateTicksInterval": 30,
+            "StartOnLoad": true,
+            "LoopEnabled": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle",
+            "X": 240,
+            "Y": 80,
+            "Width": 320,
+            "Height": 320,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 160,
+            "CenterY": 160,
+            "Radius": 160,
+            "EndAngle": 360,
+            "CapPrecision": "Butt",
+            "Alpha": 180
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel_0",
+            "X": 370,
+            "Y": 210,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "TextId": "__SingleUse_R65O",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style5"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel_1",
+            "X": 370,
+            "Y": 150,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "TextId": "__SingleUse_8X8L",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style5"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel_2",
+            "X": 370,
+            "Y": 90,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "TextId": "__SingleUse_YXJU",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style5"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel_3",
+            "X": 370,
+            "Y": 270,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "TextId": "__SingleUse_4V6O",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style5"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel_4",
+            "X": 370,
+            "Y": 330,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "TextId": "__SingleUse_Z300",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style5"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel_5",
+            "X": 430,
+            "Y": 210,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "TextId": "__SingleUse_DPQN",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style5"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel_6",
+            "X": 490,
+            "Y": 210,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "TextId": "__SingleUse_1MFD",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style5"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel_7",
+            "X": 430,
+            "Y": 150,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "TextId": "__SingleUse_TGF0",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style5"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel_8",
+            "X": 430,
+            "Y": 270,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "TextId": "__SingleUse_NXZ9",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style5"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel_9",
+            "X": 310,
+            "Y": 210,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "TextId": "__SingleUse_S410",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style5"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel_a",
+            "X": 250,
+            "Y": 210,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "TextId": "__SingleUse_28UN",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style5"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel_b",
+            "X": 310,
+            "Y": 150,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "TextId": "__SingleUse_YQK9",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style5"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel_c",
+            "X": 310,
+            "Y": 270,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png",
+            "TextId": "__SingleUse_10FH",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style5"
+          },
+          {
+            "Type": "TextProgress",
+            "Name": "textProgress_L_T",
+            "X": 60,
+            "Y": 17,
+            "Width": 180,
+            "Height": 37,
+            "TextId": "Progress_test",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "FileNameBackground": "image_progress_background.png",
+            "IndicatorPositionWidth": 180,
+            "IndicatorPositionHeight": 37,
+            "ProgressRangeMax": 4,
+            "ProgressRangeSteps": 4,
+            "ProgressInitialValue": 2
+          },
+          {
+            "Type": "TextProgress",
+            "Name": "textProgress_L_R",
+            "X": 60,
+            "Y": 60,
+            "Width": 180,
+            "Height": 37,
+            "TextId": "Progress_test",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "FileNameBackground": "image_progress_background.png",
+            "IndicatorPositionWidth": 180,
+            "IndicatorPositionHeight": 37,
+            "ProgressRangeMax": 4,
+            "ProgressRangeSteps": 4,
+            "ProgressInitialValue": 2
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaL",
+            "X": 11,
+            "Y": 17,
+            "Width": 40,
+            "Height": 520,
+            "TextId": "__SingleUse_0VLC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextProgress",
+            "Name": "textProgress_R_T",
+            "X": 560,
+            "Y": 20,
+            "Width": 180,
+            "Height": 37,
+            "TextId": "Progress_test",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "FileNameBackground": "image_progress_background.png",
+            "IndicatorPositionWidth": 180,
+            "IndicatorPositionHeight": 37,
+            "ProgressRangeMax": 4,
+            "ProgressRangeSteps": 4,
+            "ProgressInitialValue": 2
+          },
+          {
+            "Type": "TextProgress",
+            "Name": "textProgress_R_R",
+            "X": 560,
+            "Y": 60,
+            "Width": 180,
+            "Height": 37,
+            "TextId": "Progress_test",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "FileNameBackground": "image_progress_background.png",
+            "IndicatorPositionWidth": 180,
+            "IndicatorPositionHeight": 37,
+            "ProgressRangeMax": 4,
+            "ProgressRangeSteps": 4,
+            "ProgressInitialValue": 2
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaR",
+            "X": 748,
+            "Y": 17,
+            "Width": 41,
+            "Height": 520,
+            "TextId": "__SingleUse_QRWW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "LineProgress",
+            "Name": "lineProgress_G_Z",
+            "X": 60,
+            "Y": 430,
+            "Width": 180,
+            "Height": 16,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 8,
+            "StartY": 8,
+            "EndY": 8,
+            "EndX": 172,
+            "LineWidth": 8,
+            "LineEndingStyle": "Round",
+            "FileNameBackground": "line_progress_background.png",
+            "ProgressRangeMax": 100
+          },
+          {
+            "Type": "LineProgress",
+            "Name": "lineProgress_G_Y",
+            "X": 60,
+            "Y": 390,
+            "Width": 180,
+            "Height": 16,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 8,
+            "StartY": 8,
+            "EndY": 8,
+            "EndX": 172,
+            "LineWidth": 8,
+            "LineEndingStyle": "Round",
+            "FileNameBackground": "line_progress_background.png",
+            "ProgressRangeMax": 100
+          },
+          {
+            "Type": "LineProgress",
+            "Name": "lineProgress_G_X",
+            "X": 60,
+            "Y": 352,
+            "Width": 180,
+            "Height": 16,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 8,
+            "StartY": 8,
+            "EndY": 8,
+            "EndX": 172,
+            "LineWidth": 8,
+            "LineEndingStyle": "Round",
+            "FileNameBackground": "line_progress_background.png",
+            "ProgressRangeMax": 100
+          },
+          {
+            "Type": "LineProgress",
+            "Name": "lineProgress_A_Z",
+            "X": 560,
+            "Y": 429,
+            "Width": 180,
+            "Height": 16,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 8,
+            "StartY": 8,
+            "EndY": 8,
+            "EndX": 172,
+            "LineWidth": 8,
+            "LineEndingStyle": "Round",
+            "FileNameBackground": "line_progress_background.png",
+            "ProgressRangeMax": 100
+          },
+          {
+            "Type": "LineProgress",
+            "Name": "lineProgress_A_Y",
+            "X": 560,
+            "Y": 389,
+            "Width": 180,
+            "Height": 16,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 8,
+            "StartY": 8,
+            "EndY": 8,
+            "EndX": 172,
+            "LineWidth": 8,
+            "LineEndingStyle": "Round",
+            "FileNameBackground": "line_progress_background.png",
+            "ProgressRangeMax": 100
+          },
+          {
+            "Type": "LineProgress",
+            "Name": "lineProgress_A_X",
+            "X": 560,
+            "Y": 352,
+            "Width": 180,
+            "Height": 16,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 8,
+            "StartY": 8,
+            "EndY": 8,
+            "EndX": 172,
+            "LineWidth": 8,
+            "LineEndingStyle": "Round",
+            "FileNameBackground": "line_progress_background.png",
+            "ProgressRangeMax": 100
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 306,
+            "Width": 188,
+            "Height": 80,
+            "TextId": "__SingleUse_CA7F",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction0",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel_0"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"main.h\"",
+              "Code": "HAL_UART_Transmit_IT(&huart1, (const char *)'0', 1);"
+            }
+          },
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel_1"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "HAL_UART_Transmit_IT(&huart1, (const char *)'1', 1);"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel_2"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "HAL_UART_Transmit_IT(&huart1, (const char *)'2', 1);"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel_3"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "HAL_UART_Transmit_IT(&huart1, (const char *)'3', 1);"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel_4"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "HAL_UART_Transmit_IT(&huart1, (const char *)'4', 1);"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel_5"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "HAL_UART_Transmit_IT(&huart1, (const char *)'0', 1);"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel_6"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "HAL_UART_Transmit_IT(&huart1, (const char *)'6', 1);"
+            }
+          },
+          {
+            "InteractionName": "Interaction7",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel_7"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "HAL_UART_Transmit_IT(&huart1, (const char *)'7', 1);"
+            }
+          },
+          {
+            "InteractionName": "Interaction8",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel_8"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "HAL_UART_Transmit_IT(&huart1, (const char *)'8', 1);"
+            }
+          },
+          {
+            "InteractionName": "Interaction9",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel_9"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "HAL_UART_Transmit_IT(&huart1, (const char *)'9', 1);"
+            }
+          },
+          {
+            "InteractionName": "InteractionA",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel_a"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "HAL_UART_Transmit_IT(&huart1, (const char *)'a', 1);"
+            }
+          },
+          {
+            "InteractionName": "InteractionB",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel_b"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "HAL_UART_Transmit_IT(&huart1, (const char *)'b', 1);"
+            }
+          },
+          {
+            "InteractionName": "InteractionC",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel_c"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "HAL_UART_Transmit_IT(&huart1, (const char *)'c', 1);"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "Final",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "Main",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      24
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp",
+      "24": "LCD24bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD24bpp": {
+        "Id": "LCD24bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../../STM32H747I-DISCO.ioc --platform=m7",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../../gcc/Makefile clean && make -f ../../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7"
+  },
+  "Version": "4.18.1",
+  "CreatedBy": "4.18.1"
+}

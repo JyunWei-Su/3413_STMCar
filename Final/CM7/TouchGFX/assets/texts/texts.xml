@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.18.0">
+  <Texts>
+    <Text Id="Progress_test" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;&gt; %</Translation>
+    </Text>
+    <Text Id="__SingleUse_R65O" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">O</Translation>
+    </Text>
+    <Text Id="__SingleUse_8X8L" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">^</Translation>
+    </Text>
+    <Text Id="__SingleUse_YXJU" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">^^</Translation>
+    </Text>
+    <Text Id="__SingleUse_4V6O" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">v</Translation>
+    </Text>
+    <Text Id="__SingleUse_Z300" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">vv</Translation>
+    </Text>
+    <Text Id="__SingleUse_DPQN" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_1MFD" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&gt;&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_TGF0" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">/^</Translation>
+    </Text>
+    <Text Id="__SingleUse_NXZ9" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">\v</Translation>
+    </Text>
+    <Text Id="__SingleUse_S410" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_28UN" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;&lt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_YQK9" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">^\</Translation>
+    </Text>
+    <Text Id="__SingleUse_10FH" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">v/</Translation>
+    </Text>
+    <Text Id="__SingleUse_0VLC" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">L T&#10;L R&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;G X&#10;G Y&#10;G Z</Translation>
+    </Text>
+    <Text Id="__SingleUse_QRWW" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">R T&#10;R R&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;A X&#10;A Y&#10;A Z</Translation>
+    </Text>
+    <Text Id="__SingleUse_CA7F" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&gt; 50 % forward&#10;&lt; 50% backward</Translation>
+    </Text>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="RobotoCondensed-Regular.ttf" Size="30" Bpp="4" FallbackCharacter="?" WildcardCharacters=".-+" WidgetWildcardCharacters="0123456789." WildcardCharacterRanges="0-9" />
+  </Typographies>
+</TextDatabase>

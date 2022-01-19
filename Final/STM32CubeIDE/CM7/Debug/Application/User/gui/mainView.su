@@ -1,0 +1,10 @@
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+MainView.hpp:11:13:MainView::~MainView()	0	static
+mainView.cpp:29:6:virtual void MainView::tearDownScreen()	0	static
+mainView.cpp:10:6:virtual void MainView::setupScreen()	16	static
+MainView.hpp:11:13:virtual MainView::~MainView()	8	static
+mainView.cpp:6:1:MainView::MainView()	8	static
+mainView.cpp:34:6:void MainView::updateProgress(uint16_t)	8	static
+mainView.cpp:92:6:virtual void MainView::handleTickEvent()	0	static
+mainView.cpp:54:6:void MainView::updateDirection(uint16_t)	0	static
